@@ -11,24 +11,18 @@ a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-weight: 500;
+    opacity: 0.75;
 }
 /* Navber */
+
+a:hover {
+    text-decoration: underline;
+}
 .logo {
     width: 500px;
     margin: auto;
     margin-top: 100px;
 }
-
-/* ul {
-    list-style: none;
-}
-
-li {
-    display: inline;  
-
-} */
-/*  */
-
 
 .navbar {
     height: 47px;
@@ -82,17 +76,28 @@ a #iconA:hover {
     float: right;
 }
 
+/* Google Search box */
+
 .form {
     margin: 20px auto 40px auto;
 }
+
+/* .search-box{
+    position: relative;
+    width: 482px;
+    height: 44px;
+} */
+
 
 .search-box{
     position: relative;
     width: 482px;
     height: 44px;
-}
-.search-box:hover {
-    box-shadow:12px 12px 2px 1px rgba(236, 236, 241, 0.2);
+    /* border: rgb(211, 208, 208) 0px solid; */
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
 .search {
@@ -101,15 +106,24 @@ a #iconA:hover {
     padding-left: 46px;
     margin-bottom: 5px;
     border: rgb(211, 208, 208) 1px solid;
-    border-top-left-radius: 22.5px;
-    border-bottom-left-radius: 22.5px;
-    border-bottom-right-radius: 22.5px;
-    border-top-right-radius: 22.5px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
+.search:hover {
+    box-shadow:1px 2px 2px 2px rgba(0, 0, 0, 0.07);
+    
+}
 .search:focus {
-    border: gray;
-    outline: none;
+    /* border: gray; */
+    outline:none;
+    font-size: 15px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
 
@@ -117,13 +131,9 @@ a #iconA:hover {
 .search-icon{
     position: absolute;
     left: 0;
-    border: rgb(211, 208, 208) 1px solid;
-    border-right: 0;
-    height: 100%;
     width: 45px;
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
 }
+
 
 .search-icon img {
     position: relative;
@@ -136,25 +146,18 @@ a #iconA:hover {
 .mic-icon{
     position: absolute;
     right: 0px;
-    border: rgb(211, 208, 208) 1px solid;
-    border-left: 0;
-    height: 100%;
     width: 45px;
-    border-bottom-right-radius: 50%;
-    border-top-right-radius: 50%;
 }
 
 .mic-icon img {
     position: relative;
     top: 10px;
+    width: 14px;
 }
 
 .mic-icon img:hover {
-    color: grey;
     cursor: pointer;
 }
-
-
 
 button {
     padding:8px;
@@ -208,8 +211,9 @@ footer {
     max-width: 100%;
 }
 
-footer a {
+footer a , .country {
     color: #70757a;
+    opacity: 1;
 }
 
 .footer-country {
@@ -221,7 +225,6 @@ footer a {
 
 .footer-country p {
     line-height: 40px;
-   /* margin-top: 15px; */
    padding-left: 27px;
    padding-top: 2px;
    font-size: 14px;
