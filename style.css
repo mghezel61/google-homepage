@@ -1,0 +1,259 @@
+/* General Settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+/* Navber */
+.logo {
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+/* ul {
+    list-style: none;
+}
+
+li {
+    display: inline;  
+
+} */
+/*  */
+
+
+.navbar {
+    height: 47px;
+    max-width: 100%;
+    font-size: 13px;
+}
+.left-menu {
+    float: left;
+    display: inline;
+    padding-top: 10px;
+    width: 30%;
+}
+.rMenu {
+    display: inline;
+}
+.rMenu a {
+    padding-right: 15px;
+}
+
+#user{
+    position: relative;
+    top: 8px;
+    
+    border-radius: 50%;
+
+}
+#icon{
+    position: relative;
+    top: 12px;
+    transform: scale(0.8);
+    color: gray;
+
+}
+a #iconA:hover {
+    background-color: gray;
+    opacity: 50%;
+    z-index: 2;
+}
+
+.lMenu {
+    position: relative;
+    top: 10px;
+    display: inline;
+}    
+
+
+.lMenu a {
+    padding-left: 27px;
+}
+.right-menu {
+    float: right;
+}
+
+.form {
+    margin: 20px auto 40px auto;
+}
+
+.search-box{
+    position: relative;
+    width: 482px;
+    height: 44px;
+}
+.search-box:hover {
+    box-shadow:12px 12px 2px 1px rgba(236, 236, 241, 0.2);
+}
+
+.search {
+    width: 100%;
+    height: 44px;
+    padding-left: 46px;
+    margin-bottom: 5px;
+    border: rgb(211, 208, 208) 1px solid;
+    border-top-left-radius: 22.5px;
+    border-bottom-left-radius: 22.5px;
+    border-bottom-right-radius: 22.5px;
+    border-top-right-radius: 22.5px;
+}
+
+.search:focus {
+    border: gray;
+    outline: none;
+}
+
+
+
+.search-icon{
+    position: absolute;
+    left: 0;
+    border: rgb(211, 208, 208) 1px solid;
+    border-right: 0;
+    height: 100%;
+    width: 45px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.search-icon img {
+    position: relative;
+    top: 10px;
+}
+.search-icon img {
+   cursor: pointer;
+}
+
+.mic-icon{
+    position: absolute;
+    right: 0px;
+    border: rgb(211, 208, 208) 1px solid;
+    border-left: 0;
+    height: 100%;
+    width: 45px;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.mic-icon img {
+    position: relative;
+    top: 10px;
+}
+
+.mic-icon img:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+
+
+button {
+    padding:8px;
+}
+
+.searchBottoms {
+    margin-top: 18px;
+    height: 70px;
+}
+
+.searchBottoms button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.searchBottoms button:hover{
+    background-color: #f8f9fa;
+    border: 1px solid #d4d5d6;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+.offered{
+    color: #1a0dab;;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+}
+
+footer a {
+    color: #70757a;
+}
+
+.footer-country {
+    height: 40px;
+    background-color: #f2f2f2;
+    border: rgb(214, 212, 212) 1px solid;
+}
+
+
+.footer-country p {
+    line-height: 40px;
+   /* margin-top: 15px; */
+   padding-left: 27px;
+   padding-top: 2px;
+   font-size: 14px;
+}
+.fooer-menu {
+    height: 50px;
+}
+.left-footer-menu {
+    display: inline;
+    float: left;
+    width: 70%;
+    height: 40px;
+}
+.right-footer-menu {
+    display: inline;
+    float: right;
+    width: 30%;
+    height: 40px;
+}
+
+.rfmItem {
+    display: inline;
+    float: right;
+    margin-right: 27px;
+    margin-top: 10px;
+    font-size: 14px;
+    
+}
+.lfmItem {
+    display: inline;
+    float: left;
+    margin-top: 10px;
+    padding-left: 27px;
+    font-size: 14px;
+}
