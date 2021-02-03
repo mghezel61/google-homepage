@@ -74,11 +74,7 @@ a:hover {
 }
 
 #iconA:hover {
-    position: relative;
     text-decoration: none;
-    display: inline-block;
-    top: 10px;
-    
 }
 
 .lMenu {
@@ -242,6 +238,10 @@ a:hover {
 }
 
 .offered{
+    font-size: 17.8px;
+}
+
+.offered-country{
     color: #1a0dab;;
 }
 
