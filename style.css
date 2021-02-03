@@ -6,6 +6,23 @@
     text-transform: capitalize;
     
 }
+button {
+    padding:8px;
+}
+
+.rMenu button {
+    border: 1px solid #4285f4 !important;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea) !important;
+    font-weight: bold;
+    outline: none;
+    color: white;
+    border-radius: 2px;
+    margin-right: 27px;
+    padding: 9px 23px; 
+    cursor: pointer;
+    
+}
+
 
 a {
     text-decoration: none;
@@ -53,13 +70,15 @@ a:hover {
     position: relative;
     top: 12px;
     transform: scale(0.8);
-    color: gray;
 
 }
-a #iconA:hover {
-    background-color: gray;
-    opacity: 50%;
-    z-index: 2;
+
+#iconA:hover {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    top: 10px;
+    
 }
 
 .lMenu {
@@ -82,18 +101,10 @@ a #iconA:hover {
     margin: 20px auto 40px auto;
 }
 
-/* .search-box{
-    position: relative;
-    width: 482px;
-    height: 44px;
-} */
-
-
 .search-box{
     position: relative;
     width: 482px;
     height: 44px;
-    /* border: rgb(211, 208, 208) 0px solid; */
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -159,9 +170,9 @@ a #iconA:hover {
     cursor: pointer;
 }
 
-button {
-    padding:8px;
-}
+/* Search buttons */
+
+
 
 .searchBottoms {
     margin-top: 18px;
@@ -199,10 +210,43 @@ button {
     text-align: center;
     cursor: pointer;
 }
+
+.searchBottoms button:focus {
+    outline: none;
+}
+.iMFeelingLucky {
+    position: relative;
+    width: 140px;
+    bottom: 5px;
+}
+
+.iMFeelingLucky span {
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    width: 100%;
+}
+
+.iMFeelingLucky:hover + #imfl {
+    background-color: brown !important;
+    color: rgb(255, 255, 255) !important;
+    color: chartreuse !important;
+    /* animation-name: spinning;
+    animation-duration: 1s; */
+}
+
+@keyframes spinning{
+0% {
+    bottom:3px;
+}
+}
+
 .offered{
     color: #1a0dab;;
 }
 
+
+/* Footer */
 footer {
     position: fixed;
     bottom: 0;
