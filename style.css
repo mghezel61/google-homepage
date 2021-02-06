@@ -228,14 +228,8 @@ a:hover {
     background-color: brown !important;
     color: rgb(255, 255, 255) !important;
     color: chartreuse !important;
-    /* animation-name: spinning;
-    animation-duration: 1s; */
 }
 
-@keyframes spinning{
-0% {
-    bottom:3px;
-}
 }
 
 .offered{
@@ -276,6 +270,7 @@ footer a , .country {
 }
 .fooer-menu {
     height: 50px;
+     background-color: #f2f2f2;
 }
 .left-footer-menu {
     display: inline;
