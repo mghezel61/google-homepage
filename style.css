@@ -270,7 +270,7 @@ footer a , .country {
 }
 .fooer-menu {
     height: 50px;
-     background-color: #f2f2f2;
+    background-color: #f2f2f2;
 }
 .left-footer-menu {
     display: inline;
@@ -283,6 +283,7 @@ footer a , .country {
     float: right;
     width: 30%;
     height: 40px;
+    background-color: #f2f2f2;
 }
 
 .rfmItem {
